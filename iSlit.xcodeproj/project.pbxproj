@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA70C23EDF0D00D6D923844 /* libPods-iSlit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ECB86DF97D4C1ADE436891 /* libPods-iSlit.a */; };
+		532099501F250D1B00C4982B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 532099401F250D1400C4982B /* AppDelegate.m */; };
+		532099511F250D1B00C4982B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 532099471F250D1400C4982B /* main.m */; };
+		532099521F250D1B00C4982B /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 532099491F250D1400C4982B /* Settings.m */; };
+		532099531F250D1B00C4982B /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5320994B1F250D1400C4982B /* SettingsVC.m */; };
+		532099541F250D1B00C4982B /* UIImageViewAligned.m in Sources */ = {isa = PBXBuildFile; fileRef = 5320994D1F250D1400C4982B /* UIImageViewAligned.m */; };
+		532099551F250D1B00C4982B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5320994F1F250D1400C4982B /* ViewController.m */; };
+		532099561F250D2200C4982B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532099411F250D1400C4982B /* Assets.xcassets */; };
+		532099571F250D2200C4982B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532099421F250D1400C4982B /* LaunchScreen.storyboard */; };
+		532099581F250D2200C4982B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532099441F250D1400C4982B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015DB540D086263F6901FDE8 /* Pods-iSlit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSlit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSlit/Pods-iSlit.debug.xcconfig"; sourceTree = "<group>"; };
+		532099241F250C9C00C4982B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		532099251F250C9C00C4982B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		532099261F250C9C00C4982B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		532099281F250C9C00C4982B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5320992A1F250C9C00C4982B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5320992B1F250C9C00C4982B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5320992C1F250C9C00C4982B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5320992D1F250C9C00C4982B /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		5320992E1F250C9C00C4982B /* Settings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		5320992F1F250C9C00C4982B /* SettingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		532099301F250C9C00C4982B /* SettingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		532099311F250C9C00C4982B /* UIImageViewAligned.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageViewAligned.h; sourceTree = "<group>"; };
+		532099321F250C9C00C4982B /* UIImageViewAligned.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageViewAligned.m; sourceTree = "<group>"; };
+		532099331F250C9C00C4982B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		532099341F250C9C00C4982B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5320993F1F250D1400C4982B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		532099401F250D1400C4982B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		532099411F250D1400C4982B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		532099431F250D1400C4982B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		532099451F250D1400C4982B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		532099461F250D1400C4982B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532099471F250D1400C4982B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		532099481F250D1400C4982B /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		532099491F250D1400C4982B /* Settings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		5320994A1F250D1400C4982B /* SettingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		5320994B1F250D1400C4982B /* SettingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		5320994C1F250D1400C4982B /* UIImageViewAligned.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageViewAligned.h; sourceTree = "<group>"; };
+		5320994D1F250D1400C4982B /* UIImageViewAligned.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageViewAligned.m; sourceTree = "<group>"; };
+		5320994E1F250D1400C4982B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5320994F1F250D1400C4982B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73ECB86DF97D4C1ADE436891 /* libPods-iSlit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSlit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49B03491053D0EFC625674B /* Pods-iSlit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSlit.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSlit/Pods-iSlit.release.xcconfig"; sourceTree = "<group>"; };
+		D67CFB521C30E6FA005AE284 /* iSlit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSlit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D67CFB4F1C30E6FA005AE284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA70C23EDF0D00D6D923844 /* libPods-iSlit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		532099231F250C9C00C4982B /* iSplit */ = {
+			isa = PBXGroup;
+			children = (
+				532099241F250C9C00C4982B /* AppDelegate.h */,
+				532099251F250C9C00C4982B /* AppDelegate.m */,
+				532099261F250C9C00C4982B /* Assets.xcassets */,
+				532099271F250C9C00C4982B /* LaunchScreen.storyboard */,
+				532099291F250C9C00C4982B /* Main.storyboard */,
+				5320992B1F250C9C00C4982B /* Info.plist */,
+				5320992C1F250C9C00C4982B /* main.m */,
+				5320992D1F250C9C00C4982B /* Settings.h */,
+				5320992E1F250C9C00C4982B /* Settings.m */,
+				5320992F1F250C9C00C4982B /* SettingsVC.h */,
+				532099301F250C9C00C4982B /* SettingsVC.m */,
+				532099311F250C9C00C4982B /* UIImageViewAligned.h */,
+				532099321F250C9C00C4982B /* UIImageViewAligned.m */,
+				532099331F250C9C00C4982B /* ViewController.h */,
+				532099341F250C9C00C4982B /* ViewController.m */,
+			);
+			path = iSplit;
+			sourceTree = "<group>";
+		};
+		5320993E1F250D1300C4982B /* iSlit */ = {
+			isa = PBXGroup;
+			children = (
+				5320993F1F250D1400C4982B /* AppDelegate.h */,
+				532099401F250D1400C4982B /* AppDelegate.m */,
+				532099411F250D1400C4982B /* Assets.xcassets */,
+				532099421F250D1400C4982B /* LaunchScreen.storyboard */,
+				532099441F250D1400C4982B /* Main.storyboard */,
+				532099461F250D1400C4982B /* Info.plist */,
+				532099471F250D1400C4982B /* main.m */,
+				532099481F250D1400C4982B /* Settings.h */,
+				532099491F250D1400C4982B /* Settings.m */,
+				5320994A1F250D1400C4982B /* SettingsVC.h */,
+				5320994B1F250D1400C4982B /* SettingsVC.m */,
+				5320994C1F250D1400C4982B /* UIImageViewAligned.h */,
+				5320994D1F250D1400C4982B /* UIImageViewAligned.m */,
+				5320994E1F250D1400C4982B /* ViewController.h */,
+				5320994F1F250D1400C4982B /* ViewController.m */,
+			);
+			path = iSlit;
+			sourceTree = "<group>";
+		};
+		CFDC603059601737B0FE6415 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				015DB540D086263F6901FDE8 /* Pods-iSlit.debug.xcconfig */,
+				D49B03491053D0EFC625674B /* Pods-iSlit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D67CFB491C30E6FA005AE284 = {
+			isa = PBXGroup;
+			children = (
+				5320993E1F250D1300C4982B /* iSlit */,
+				532099231F250C9C00C4982B /* iSplit */,
+				D67CFB531C30E6FA005AE284 /* Products */,
+				CFDC603059601737B0FE6415 /* Pods */,
+				E4D36438657EB917549EF9BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D67CFB531C30E6FA005AE284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D67CFB521C30E6FA005AE284 /* iSlit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4D36438657EB917549EF9BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73ECB86DF97D4C1ADE436891 /* libPods-iSlit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D67CFB511C30E6FA005AE284 /* iSlit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67CFB821C30E6FA005AE284 /* Build configuration list for PBXNativeTarget "iSlit" */;
+			buildPhases = (
+				B521B61D75CC1A90DE161613 /* [CP] Check Pods Manifest.lock */,
+				D67CFB4E1C30E6FA005AE284 /* Sources */,
+				D67CFB4F1C30E6FA005AE284 /* Frameworks */,
+				D67CFB501C30E6FA005AE284 /* Resources */,
+				B1AC31FE4ED4FA50375ACC4B /* [CP] Embed Pods Frameworks */,
+				C5DE259EAC31BE33825FF299 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSlit;
+			productName = RealTimeFilter;
+			productReference = D67CFB521C30E6FA005AE284 /* iSlit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D67CFB4A1C30E6FA005AE284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = BigBadBird.ru;
+				TargetAttributes = {
+					D67CFB511C30E6FA005AE284 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8YBKQD6YZD;
+					};
+				};
+			};
+			buildConfigurationList = D67CFB4D1C30E6FA005AE284 /* Build configuration list for PBXProject "iSlit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D67CFB491C30E6FA005AE284;
+			productRefGroup = D67CFB531C30E6FA005AE284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D67CFB511C30E6FA005AE284 /* iSlit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D67CFB501C30E6FA005AE284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532099561F250D2200C4982B /* Assets.xcassets in Resources */,
+				532099571F250D2200C4982B /* LaunchScreen.storyboard in Resources */,
+				532099581F250D2200C4982B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1AC31FE4ED4FA50375ACC4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSlit/Pods-iSlit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B521B61D75CC1A90DE161613 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5DE259EAC31BE33825FF299 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSlit/Pods-iSlit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D67CFB4E1C30E6FA005AE284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532099501F250D1B00C4982B /* AppDelegate.m in Sources */,
+				532099511F250D1B00C4982B /* main.m in Sources */,
+				532099521F250D1B00C4982B /* Settings.m in Sources */,
+				532099531F250D1B00C4982B /* SettingsVC.m in Sources */,
+				532099541F250D1B00C4982B /* UIImageViewAligned.m in Sources */,
+				532099551F250D1B00C4982B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		532099271F250C9C00C4982B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				532099281F250C9C00C4982B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		532099291F250C9C00C4982B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5320992A1F250C9C00C4982B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		532099421F250D1400C4982B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				532099431F250D1400C4982B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		532099441F250D1400C4982B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				532099451F250D1400C4982B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D67CFB801C30E6FA005AE284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D67CFB811C30E6FA005AE284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D67CFB831C30E6FA005AE284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015DB540D086263F6901FDE8 /* Pods-iSlit.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8YBKQD6YZD;
+				INFOPLIST_FILE = iSlit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.bigbadbird.ios.islit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D67CFB841C30E6FA005AE284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49B03491053D0EFC625674B /* Pods-iSlit.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8YBKQD6YZD;
+				INFOPLIST_FILE = iSlit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.bigbadbird.ios.islit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D67CFB4D1C30E6FA005AE284 /* Build configuration list for PBXProject "iSlit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67CFB801C30E6FA005AE284 /* Debug */,
+				D67CFB811C30E6FA005AE284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67CFB821C30E6FA005AE284 /* Build configuration list for PBXNativeTarget "iSlit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67CFB831C30E6FA005AE284 /* Debug */,
+				D67CFB841C30E6FA005AE284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D67CFB4A1C30E6FA005AE284 /* Project object */;
+}
