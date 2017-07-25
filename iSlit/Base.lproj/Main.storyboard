@@ -37,46 +37,8 @@
                         <sections>
                             <tableViewSection id="ihA-vx-waa">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="lVm-bQ-CDs">
-                                        <rect key="frame" x="0.0" y="35" width="667" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lVm-bQ-CDs" id="Qej-sx-b0P">
-                                            <rect key="frame" x="0.0" y="0.0" width="667" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите разрешение" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57P-zp-kC8">
-                                                    <rect key="frame" x="20" y="11" width="464" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="kFZ-zk-oqh">
-                                                    <rect key="frame" x="492" y="7" width="167" height="29"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="28" id="0BG-4f-7O8"/>
-                                                        <constraint firstAttribute="width" constant="167" id="vnx-b8-wyR"/>
-                                                    </constraints>
-                                                    <segments>
-                                                        <segment title="720p"/>
-                                                        <segment title="1080p"/>
-                                                        <segment title="4K"/>
-                                                    </segments>
-                                                </segmentedControl>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="kFZ-zk-oqh" firstAttribute="centerY" secondItem="Qej-sx-b0P" secondAttribute="centerY" id="GRM-gQ-EJw"/>
-                                                <constraint firstItem="57P-zp-kC8" firstAttribute="leading" secondItem="Qej-sx-b0P" secondAttribute="leadingMargin" constant="12" id="LaG-y3-pRW"/>
-                                                <constraint firstItem="57P-zp-kC8" firstAttribute="centerY" secondItem="Qej-sx-b0P" secondAttribute="centerY" id="Q0w-tN-ze0"/>
-                                                <constraint firstItem="57P-zp-kC8" firstAttribute="leading" secondItem="Qej-sx-b0P" secondAttribute="leadingMargin" constant="12" id="Qtt-aG-n7n"/>
-                                                <constraint firstItem="kFZ-zk-oqh" firstAttribute="leading" secondItem="57P-zp-kC8" secondAttribute="trailing" constant="8" id="YF7-JW-f4O"/>
-                                                <constraint firstItem="kFZ-zk-oqh" firstAttribute="leading" secondItem="57P-zp-kC8" secondAttribute="trailing" constant="8" id="iwL-44-wcJ"/>
-                                                <constraint firstAttribute="trailing" secondItem="kFZ-zk-oqh" secondAttribute="trailing" constant="8" id="mwd-ke-D60"/>
-                                                <constraint firstItem="kFZ-zk-oqh" firstAttribute="leading" secondItem="57P-zp-kC8" secondAttribute="trailing" constant="8" id="ndc-Ut-IlV"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="J0M-r0-qj0">
-                                        <rect key="frame" x="0.0" y="79" width="667" height="44"/>
+                                        <rect key="frame" x="0.0" y="35" width="667" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="J0M-r0-qj0" id="8kh-eZ-I20">
                                             <rect key="frame" x="0.0" y="0.0" width="667" height="44"/>
@@ -100,6 +62,9 @@
                                                         <segment title="120"/>
                                                         <segment title="240"/>
                                                     </segments>
+                                                    <connections>
+                                                        <action selector="changeFPS:" destination="LS5-so-TPQ" eventType="valueChanged" id="WAm-Kw-x8V"/>
+                                                    </connections>
                                                 </segmentedControl>
                                             </subviews>
                                             <constraints>
@@ -115,7 +80,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="uc1-6V-SJP">
-                                        <rect key="frame" x="0.0" y="123" width="667" height="44"/>
+                                        <rect key="frame" x="0.0" y="79" width="667" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uc1-6V-SJP" id="i9h-sB-CyO">
                                             <rect key="frame" x="0.0" y="0.0" width="667" height="44"/>
@@ -137,6 +102,9 @@
                                                         <segment title="Смещение"/>
                                                         <segment title="Середина"/>
                                                     </segments>
+                                                    <connections>
+                                                        <action selector="typeRecordChenge:" destination="LS5-so-TPQ" eventType="valueChanged" id="kfc-t7-XEU"/>
+                                                    </connections>
                                                 </segmentedControl>
                                             </subviews>
                                             <constraints>
@@ -150,7 +118,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="FPZ-ww-z1a">
-                                        <rect key="frame" x="0.0" y="167" width="667" height="44"/>
+                                        <rect key="frame" x="0.0" y="123" width="667" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FPZ-ww-z1a" id="nhh-H7-gSi">
                                             <rect key="frame" x="0.0" y="0.0" width="667" height="44"/>
@@ -195,7 +163,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="qxT-fW-ttg">
-                                        <rect key="frame" x="0.0" y="211" width="667" height="44"/>
+                                        <rect key="frame" x="0.0" y="167" width="667" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qxT-fW-ttg" id="Gp5-2H-0Lr">
                                             <rect key="frame" x="0.0" y="0.0" width="667" height="44"/>
@@ -229,7 +197,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="tub-H7-UjB">
-                                        <rect key="frame" x="0.0" y="255" width="667" height="44"/>
+                                        <rect key="frame" x="0.0" y="211" width="667" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tub-H7-UjB" id="Q3q-Qd-aTT">
                                             <rect key="frame" x="0.0" y="0.0" width="667" height="44"/>
@@ -267,7 +235,7 @@
                             <tableViewSection footerTitle="2017 Copyright © iSlit (Mikhail Lutskiy &amp; Natalia Simakova). All rights reserved." id="HM4-UU-GZb">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="et1-uI-uLf">
-                                        <rect key="frame" x="0.0" y="335" width="667" height="44"/>
+                                        <rect key="frame" x="0.0" y="291" width="667" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="et1-uI-uLf" id="bd3-dn-kcS">
                                             <rect key="frame" x="0.0" y="0.0" width="667" height="44"/>
@@ -276,6 +244,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kx5-Dr-Ugb">
                                                     <rect key="frame" x="8" y="7" width="651" height="30"/>
                                                     <state key="normal" title="Связаться с нами"/>
+                                                    <connections>
+                                                        <action selector="supportAction:" destination="LS5-so-TPQ" eventType="touchUpInside" id="WEB-mm-YhQ"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -306,7 +277,6 @@
                         <outlet property="fpsSegment" destination="mMs-xd-zXg" id="uZp-a1-k0c"/>
                         <outlet property="pixelLabel" destination="stX-VX-z7v" id="7i0-vD-uMy"/>
                         <outlet property="plusStepper" destination="Agh-7f-JAC" id="z89-6a-Bvt"/>
-                        <outlet property="resolutionsSegment" destination="kFZ-zk-oqh" id="lhB-Us-WLU"/>
                         <outlet property="torchSwitch" destination="H7a-V2-Bg4" id="uls-Kq-eDb"/>
                         <outlet property="typeSegment" destination="N7v-Ow-DNc" id="lC7-al-iv3"/>
                     </connections>

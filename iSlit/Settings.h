@@ -21,6 +21,11 @@ typedef enum {
     _4K
 } Resolutions;
 
+typedef enum {
+    SlideType = 0,
+    StaticType
+} RecordType;
+
 @interface Settings : NSObject {
     NSUserDefaults *ud;
 }
@@ -29,6 +34,7 @@ typedef enum {
 @property (getter=getAutoFocusState, setter=setAutoFocusState:) BOOL isAutoFocusEnable;
 @property NSString *quality;
 @property FPS fps;
-@property NSInteger pixelCount;
+@property int pixelCount;
+@property RecordType typeOfRecord;
 
 @end

@@ -17,6 +17,9 @@
 		532099561F250D2200C4982B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532099411F250D1400C4982B /* Assets.xcassets */; };
 		532099571F250D2200C4982B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532099421F250D1400C4982B /* LaunchScreen.storyboard */; };
 		532099581F250D2200C4982B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532099441F250D1400C4982B /* Main.storyboard */; };
+		5320995B1F2669CD00C4982B /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5320995A1F2669CD00C4982B /* CameraManager.m */; };
+		5320995E1F2676C400C4982B /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5320995D1F2676C400C4982B /* ImageManager.m */; };
+		532099611F26897200C4982B /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 532099601F26897200C4982B /* HUDManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,12 @@
 		5320994D1F250D1400C4982B /* UIImageViewAligned.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageViewAligned.m; sourceTree = "<group>"; };
 		5320994E1F250D1400C4982B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5320994F1F250D1400C4982B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		532099591F2669CD00C4982B /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		5320995A1F2669CD00C4982B /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
+		5320995C1F2676C400C4982B /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		5320995D1F2676C400C4982B /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		5320995F1F26897200C4982B /* HUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDManager.h; sourceTree = "<group>"; };
+		532099601F26897200C4982B /* HUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDManager.m; sourceTree = "<group>"; };
 		73ECB86DF97D4C1ADE436891 /* libPods-iSlit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSlit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49B03491053D0EFC625674B /* Pods-iSlit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSlit.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSlit/Pods-iSlit.release.xcconfig"; sourceTree = "<group>"; };
 		D67CFB521C30E6FA005AE284 /* iSlit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSlit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +117,12 @@
 				5320994D1F250D1400C4982B /* UIImageViewAligned.m */,
 				5320994E1F250D1400C4982B /* ViewController.h */,
 				5320994F1F250D1400C4982B /* ViewController.m */,
+				532099591F2669CD00C4982B /* CameraManager.h */,
+				5320995A1F2669CD00C4982B /* CameraManager.m */,
+				5320995C1F2676C400C4982B /* ImageManager.h */,
+				5320995D1F2676C400C4982B /* ImageManager.m */,
+				5320995F1F26897200C4982B /* HUDManager.h */,
+				532099601F26897200C4982B /* HUDManager.m */,
 			);
 			path = iSlit;
 			sourceTree = "<group>";
@@ -272,10 +287,13 @@
 			files = (
 				532099501F250D1B00C4982B /* AppDelegate.m in Sources */,
 				532099511F250D1B00C4982B /* main.m in Sources */,
+				5320995B1F2669CD00C4982B /* CameraManager.m in Sources */,
 				532099521F250D1B00C4982B /* Settings.m in Sources */,
 				532099531F250D1B00C4982B /* SettingsVC.m in Sources */,
+				532099611F26897200C4982B /* HUDManager.m in Sources */,
 				532099541F250D1B00C4982B /* UIImageViewAligned.m in Sources */,
 				532099551F250D1B00C4982B /* ViewController.m in Sources */,
+				5320995E1F2676C400C4982B /* ImageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 015DB540D086263F6901FDE8 /* Pods-iSlit.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8YBKQD6YZD;
 				INFOPLIST_FILE = iSlit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -414,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D49B03491053D0EFC625674B /* Pods-iSlit.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8YBKQD6YZD;
 				INFOPLIST_FILE = iSlit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

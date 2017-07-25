@@ -14,6 +14,9 @@
     self = [super init];
     if (self) {
         ud = [NSUserDefaults standardUserDefaults];
+        if (![ud integerForKey:@"fps"] || [ud integerForKey:@"fps"] == 0) {
+            [ud setInteger:FPS_30 forKey:@"fps"];
+        }
     }
     return self;
 }
@@ -23,7 +26,7 @@
 }
 
 - (FPS)fps {
-    return (FPS)[ud valueForKey:@"fps"];
+    return (FPS)[ud integerForKey:@"fps"];
 }
 
 - (BOOL)getTorchState {
@@ -42,12 +45,20 @@
     [ud setBool:isAutoFocusEnable forKey:@"autofocus"];
 }
 
-- (void)setPixelCount:(NSInteger)pixelCount {
+- (void)setPixelCount:(int)pixelCount {
     [ud setInteger:pixelCount forKey:@"pixelcount"];
 }
 
-- (NSInteger)pixelCount {
-    return [ud integerForKey:@"pixelcount"];
+- (int)pixelCount {
+    return (int)[ud integerForKey:@"pixelcount"];
+}
+
+- (void)setTypeOfRecord:(RecordType)typeOfRecord {
+    [ud setBool:typeOfRecord forKey:@"typeOfRecord"];
+}
+
+- (RecordType)typeOfRecord {
+    return [ud boolForKey:@"typeOfRecord"];
 }
 
 @end
