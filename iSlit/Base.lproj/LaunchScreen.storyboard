@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,10 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="j9B-ke-YqY">
-                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera-diaphragm" translatesAutoresizingMaskIntoConstraints="NO" id="lar-bW-F4v">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera-diaphragm" translatesAutoresizingMaskIntoConstraints="NO" id="lar-bW-F4v">
                                 <rect key="frame" x="269" y="80" width="128" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="gw0-cG-Qo9"/>
@@ -36,21 +34,17 @@
                                     <constraint firstAttribute="height" constant="70" id="1qZ-VB-gEw"/>
                                     <constraint firstAttribute="width" constant="105" id="lCB-bv-f5i"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="31"/>
+                                <color key="textColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="j9B-ke-YqY" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="3Va-jR-Utn"/>
                             <constraint firstItem="7aa-Vq-3KL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3wq-Qd-L9E"/>
                             <constraint firstItem="lar-bW-F4v" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="80" id="Lhv-Nf-sFh"/>
                             <constraint firstItem="lar-bW-F4v" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="NxB-SZ-rMi"/>
-                            <constraint firstAttribute="trailing" secondItem="j9B-ke-YqY" secondAttribute="trailing" id="R6d-qp-rY1"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="j9B-ke-YqY" secondAttribute="bottom" id="TBI-Vn-SgX"/>
                             <constraint firstItem="7aa-Vq-3KL" firstAttribute="top" secondItem="lar-bW-F4v" secondAttribute="bottom" constant="8" id="fFC-Qe-aLA"/>
-                            <constraint firstItem="j9B-ke-YqY" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="jAb-Ya-4aU"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -61,7 +55,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BG" width="2048" height="2048"/>
-        <image name="camera-diaphragm" width="1494" height="1496"/>
+        <image name="camera-diaphragm" width="128" height="128"/>
     </resources>
 </document>
